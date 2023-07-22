@@ -1,0 +1,27 @@
+[
+    {
+      "company_name": "Brain Station 23",
+      "location": "Badda, Dhaka.",
+      "category": "Information Technology",
+      "description": "ABC Technologies is a leading software development and IT solutions company in Bangladesh. They provide a wide range of services, including web development, mobile app development, and IT consulting.",
+      "website": "https://brainstation-23.com/",
+      "logo": "https://i.ibb.co/WsZkz5g/Brain-Station-23.png"
+    },
+    {
+      "company_name": "Datasoft",
+      "location": "Shyamoli, Dhaka,",
+      "category": "Information Technology",
+      "description": "TechGenius Solutions is a fast-growing IT company known for its innovative software products and services. They specialize in AI development, blockchain, and cloud solutions.",
+      "website": "http://datasoft-bd.com/",
+      "logo": "https://i.ibb.co/YZw7vbF/DataSoft.png"
+    },
+    {
+      "company_name": "TigerIT",
+      "location": "Banani, Dhaka",
+      "category": "Information Technology",
+      "description": "Innovate IT Services is a trusted IT company with expertise in software development, web design, and digital marketing. They cater to both local and international clients.",
+      "website": "https://www.tigerit.com/",
+      "logo": "https://i.ibb.co/HH2LPMz/TigerIT.png"
+    }
+  ]
+  

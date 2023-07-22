@@ -1,0 +1,27 @@
+[
+    {
+      "company_name": "Google Inc.",
+      "location": "Mountain View, California, USA",
+      "category": "Information Technology",
+      "description": "Google is a multinational technology company specializing in internet-related services and products. It is known for its search engine, online advertising technologies, cloud computing, software, and hardware.",
+      "website": "https://www.google.com",
+      "logo": "https://i.ibb.co/r01kpmR/Google.png"
+    },
+    {
+      "company_name": "Microsoft Corporation",
+      "location": "Redmond, Washington, USA",
+      "category": "Information Technology",
+      "description": "Microsoft is a global technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+      "website": "https://www.microsoft.com",
+      "logo": "https://i.ibb.co/yXqtN9Q/Microsoft.png"
+    },
+    {
+      "company_name": "Amazon.com, Inc.",
+      "location": "Seattle, Washington, USA",
+      "category": "Information Technology",
+      "description": "Amazon is a multinational technology company focusing on e-commerce, cloud computing, digital streaming, artificial intelligence, and more. It is one of the world's largest online marketplaces and cloud services providers.",
+      "website": "https://www.amazon.com",
+      "logo": "https://i.ibb.co/2K77LvL/Amazon.png"
+    }
+  ]
+  

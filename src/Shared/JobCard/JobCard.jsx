@@ -2,7 +2,7 @@ import React from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 const JobCard = ({ jobs }) => {
-  console.log(jobs);
+  // console.log(jobs);
   const {
     position_name,
     job_location,
