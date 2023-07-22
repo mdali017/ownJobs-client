@@ -1,0 +1,45 @@
+[
+    {
+      "position_name": "Software Engineer",
+      "job_location": "San Francisco, CA",
+      "company_name": "TechCorp Inc.",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo3.svg",
+      "category_name": "Information Technology"
+    },
+    {
+      "position_name": "Marketing Manager",
+      "job_location": "New York, NY",
+      "company_name": "Global Marketing Solutions",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo2.svg",
+      "category_name": "Marketing"
+    },
+    {
+      "position_name": "Accountant",
+      "job_location": "Chicago, IL",
+      "company_name": "Financial Consultants LLC",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo1.svg",
+      "category_name": "Finance"
+    },
+    {
+      "position_name": "Graphic Designer",
+      "job_location": "Los Angeles, CA",
+      "company_name": "Creative Creations Agency",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo4.svg",
+      "category_name": "Design"
+    },
+    {
+      "position_name": "Customer Support Specialist",
+      "job_location": "Seattle, WA",
+      "company_name": "CustomerFirst Inc.",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo5.svg",
+      "category_name": "Customer Service"
+    },
+    {
+      "position_name": "Data Analyst",
+      "job_location": "Boston, MA",
+      "company_name": "DataTech Solutions",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo1.svg",
+      "category_name": "Data Science"
+    }
+  ]
+  

@@ -1,0 +1,45 @@
+[
+    {
+      "position_name": "Product Manager",
+      "job_location": "Austin, TX",
+      "company_name": "Innovative Tech Co.",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo1.svg",
+      "category_name": "Product Management"
+    },
+    {
+      "position_name": "Human Resources Specialist",
+      "job_location": "Miami, FL",
+      "company_name": "Talent Solutions Ltd.",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo5.svg",
+      "category_name": "Human Resources"
+    },
+    {
+      "position_name": "Sales Representative",
+      "job_location": "Denver, CO",
+      "company_name": "SalesPro Inc.",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo4.svg",
+      "category_name": "Sales"
+    },
+    {
+      "position_name": "Healthcare Administrator",
+      "job_location": "Philadelphia, PA",
+      "company_name": "Health Plus Services",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo1.svg",
+      "category_name": "Healthcare"
+    },
+    {
+      "position_name": "Content Writer",
+      "job_location": "Portland, OR",
+      "company_name": "CreativeWords Agency",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo2.svg",
+      "category_name": "Writing"
+    },
+    {
+      "position_name": "IT Support Specialist",
+      "job_location": "Houston, TX",
+      "company_name": "IT Solutions Now",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo3.svg",
+      "category_name": "Information Technology"
+    }
+  ]
+  
