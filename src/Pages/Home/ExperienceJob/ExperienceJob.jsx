@@ -2,15 +2,21 @@ import React, { useEffect, useState } from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import JobCard from "../../../Shared/JobCard/JobCard";
 import { FaArrowRight } from "react-icons/fa";
+import useAllJobs from "../../../hooks/useAllJobs";
 
 const ExperienceJob = () => {
-  const [experienceJob, setExperienceJob] = useState([]);
+  const [allJobs] = useAllJobs();
 
-  useEffect(() => {
-    fetch("../../../../public/data/ExperienceJob.json")
-      .then((res) => res.json())
-      .then((data) => setExperienceJob(data));
-  }, []);
+  const experienceJob = allJobs.filter(
+    (item) => item.job_type === "Experience"
+  );
+  // const [experienceJob, setExperienceJob] = useState([]);
+
+  // useEffect(() => {
+  //   fetch("../../../../public/data/ExperienceJob.json")
+  //     .then((res) => res.json())
+  //     .then((data) => setExperienceJob(data));
+  // }, []);
   return (
     <div>
       <SectionTitle

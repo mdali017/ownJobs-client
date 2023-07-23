@@ -2,15 +2,19 @@ import React, { useEffect, useState } from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import JobCard from "../../../Shared/JobCard/JobCard";
 import { FaArrowRight } from "react-icons/fa";
+import useAllJobs from "../../../hooks/useAllJobs";
 
 const FresherJob = () => {
-  const [fresherJob, setFresherJob] = useState([]);
+  // const [fresherJob, setFresherJob] = useState([]);
+  const [allJobs] = useAllJobs();
+  console.log(allJobs, 10);
+  const fresherJob = allJobs.filter((item) => item.job_type === "Fresher");
 
-  useEffect(() => {
-    fetch("../../../../public/data/FresherJob.json")
-      .then((res) => res.json())
-      .then((data) => setFresherJob(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch("../../../../public/data/FresherJob.json")
+  //     .then((res) => res.json())
+  //     .then((data) => setFresherJob(data));
+  // }, []);
   return (
     <div>
       <SectionTitle

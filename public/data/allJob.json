@@ -1,0 +1,98 @@
+[
+    {
+      "position": "Software Engineer",
+      "job_location": "San Francisco, CA",
+      "company_name": "TechCo",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo1.svg",
+      "job_type": "Fresher",
+      "category_name": "Software Development"
+    },
+    {
+      "position": "Data Scientist",
+      "job_location": "New York, NY",
+      "company_name": "DataCorp",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo5.svg",
+      "job_type": "Experience",
+      "category_name": "Data Science"
+    },
+    {
+      "position": "Marketing Intern",
+      "job_location": "Los Angeles, CA",
+      "company_name": "AdvertiseNow",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo3.svg",
+      "job_type": "Fresher",
+      "category_name": "Marketing"
+    },
+    {
+      "position": "Graphic Designer",
+      "job_location": "Chicago, IL",
+      "company_name": "DesignMasters",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo1.svg",
+      "job_type": "Experience",
+      "category_name": "Design"
+    },
+    {
+      "position": "Data Analyst",
+      "job_location": "Seattle, WA",
+      "company_name": "InfoAnalytics",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo2.svg",
+      "job_type": "Fresher",
+      "category_name": "Data Science"
+    },
+    {
+      "position": "Marketing Coordinator",
+      "job_location": "Houston, TX",
+      "company_name": "PromoExperts",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo4.svg",
+      "job_type": "Experience",
+      "category_name": "Marketing"
+    },
+    {
+      "position": "Front-end Developer",
+      "job_location": "Boston, MA",
+      "company_name": "WebTech Solutions",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo1.svg",
+      "job_type": "Fresher",
+      "category_name": "Software Development"
+    },
+    {
+      "position": "UX Designer",
+      "job_location": "Denver, CO",
+      "company_name": "DesignUp",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo2.svg",
+      "job_type": "Experience",
+      "category_name": "Design"
+    },
+    {
+      "position": "Business Analyst",
+      "job_location": "Austin, TX",
+      "company_name": "TechBiz Consulting",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo4.svg",
+      "job_type": "Fresher",
+      "category_name": "Business"
+    },
+    {
+      "position": "Software Developer",
+      "job_location": "San Diego, CA",
+      "company_name": "CodeMasters",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo3.svg",
+      "job_type": "Experience",
+      "category_name": "Software Development"
+    },
+    {
+      "position": "Digital Marketing Specialist",
+      "job_location": "Miami, FL",
+      "company_name": "DigitalizeIt",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo5.svg",
+      "job_type": "Fresher",
+      "category_name": "Marketing"
+    },
+    {
+      "position": "Product Designer",
+      "job_location": "Portland, OR",
+      "company_name": "DesignCo",
+      "company_logo": "https://preview.colorlib.com/theme/joblab/assets/img/icon/company-logo5.svg",
+      "job_type": "Experience",
+      "category_name": "Design"
+    }
+  ]

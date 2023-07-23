@@ -12,7 +12,11 @@ const Blog = () => {
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
           <figure>
-            <img src="https://i.ibb.co/ZBCd1PR/HTML-and-CSS.jpg" alt="Shoes" />
+            <img
+              className="w-80"
+              src="https://i.ibb.co/ZBCd1PR/HTML-and-CSS.jpg"
+              alt="Shoes"
+            />
           </figure>
           <div className="card-body">
             <h2 className="card-title">
