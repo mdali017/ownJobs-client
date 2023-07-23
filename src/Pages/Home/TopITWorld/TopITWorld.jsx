@@ -1,15 +1,20 @@
 import React, { useEffect, useState } from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import CompanyCard from "../../../Shared/CompanyCard/CompanyCard";
+import useCompanies from "../../../hooks/useCompanies";
 
 const TopITWorld = () => {
-  const [topCompanies, setCompanies] = useState([]);
+  const [companies] = useCompanies();
+  const topCompanies = companies.filter(
+    (item) => item.location_type === "WorldWide"
+  );
+  // const [topCompanies, setCompanies] = useState([]);
 
-  useEffect(() => {
-    fetch("../../../../public/data/TopITWorld.json")
-      .then((res) => res.json())
-      .then((data) => setCompanies(data, 10));
-  }, []);
+  // useEffect(() => {
+  //   fetch("../../../../public/data/TopITWorld.json")
+  //     .then((res) => res.json())
+  //     .then((data) => setCompanies(data, 10));
+  // }, []);
   return (
     <div>
       <SectionTitle

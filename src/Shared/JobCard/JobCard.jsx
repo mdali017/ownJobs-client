@@ -1,7 +1,10 @@
 import React from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const JobCard = ({ jobs }) => {
+  const navigate = useNavigate();
   // console.log(jobs);
   const {
     position_name,
@@ -10,6 +13,17 @@ const JobCard = ({ jobs }) => {
     company_logo,
     category_name,
   } = jobs;
+
+  const handleApply = () => {
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: "Job Apply Successfully",
+      showConfirmButton: false,
+      timer: 1500,
+    });
+    navigate("/");
+  };
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <div className="card-body">
@@ -36,11 +50,10 @@ const JobCard = ({ jobs }) => {
             <img src={company_logo} alt="" />
             <h4>{company_name}</h4>
           </div>
-          <button className="btn ">Apply Now</button>
+          <button onClick={handleApply} className="btn ">
+            Apply Now
+          </button>
         </div>
-        {/* <div className="card-actions justify-end">
-          <button className="btn btn-primary">Buy Now</button>
-        </div> */}
       </div>
     </div>
   );

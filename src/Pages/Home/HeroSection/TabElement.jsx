@@ -1,8 +1,22 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
 const TabElement = () => {
+  const navigate = useNavigate();
+  const searchButton = (
+    <>
+      <div className="indicator">
+        <span className="indicator-item badge badge-secondary">new</span>
+        <button className="btn join-item">Search</button>
+      </div>
+    </>
+  );
+  const handleNavigate = () => {
+    navigate("/alljobs");
+    console.log("button click");
+  };
   return (
     <Tabs>
       <TabList>
@@ -32,10 +46,7 @@ const TabElement = () => {
             <option>Hybrid</option>
             <option>Remote</option>
           </select>
-          <div className="indicator">
-            <span className="indicator-item badge badge-secondary">new</span>
-            <button className="btn join-item">Search</button>
-          </div>
+          <div onClick={handleNavigate}>{searchButton}</div>
         </div>
       </TabPanel>
       <TabPanel>
@@ -60,10 +71,7 @@ const TabElement = () => {
             <option>Hybrid</option>
             <option>Remote</option>
           </select>
-          <div className="indicator">
-            <span className="indicator-item badge badge-secondary">new</span>
-            <button className="btn join-item">Search</button>
-          </div>
+          <div onClick={handleNavigate}>{searchButton}</div>
         </div>
       </TabPanel>
     </Tabs>

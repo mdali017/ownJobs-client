@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import CompanyCard from "../../../Shared/CompanyCard/CompanyCard";
+import useCompanies from "../../../hooks/useCompanies";
 
 const TopITBangladesh = () => {
-  const [topITBangladesh, setTopITBangladesh] = useState([]);
+  const [companies] = useCompanies();
+  const topITBangladesh = companies.filter(
+    (item) => item.location_type === "Bangladesh"
+  );
 
-  useEffect(() => {
-    fetch("../../../../public/data/TopITBangladesh.json")
-      .then((res) => res.json())
-      .then((data) => setTopITBangladesh(data));
-  }, []);
   return (
     <div>
       <SectionTitle

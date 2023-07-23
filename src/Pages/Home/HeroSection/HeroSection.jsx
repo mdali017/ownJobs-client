@@ -14,10 +14,11 @@ const HeroSection = () => {
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-screen-lg text-left">
           <h1 className="mb-5 text-5xl font-bold">Find Your Own Jobs</h1>
-          <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+          <p className="mb-5 w-[700px]">
+            Welcome to FindJob - Your Gateway to Exciting Opportunities!
+            Discover your dream job with ease and efficiency on our platform. We
+            connect job seekers like you with a wide range of career options
+            across diverse industries.
           </p>
           <TabElement></TabElement>
         </div>

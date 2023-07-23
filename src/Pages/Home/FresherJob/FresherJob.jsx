@@ -3,18 +3,17 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import JobCard from "../../../Shared/JobCard/JobCard";
 import { FaArrowRight } from "react-icons/fa";
 import useAllJobs from "../../../hooks/useAllJobs";
+import { useNavigate } from "react-router-dom";
 
 const FresherJob = () => {
-  // const [fresherJob, setFresherJob] = useState([]);
+  const navigate = useNavigate();
   const [allJobs] = useAllJobs();
-  console.log(allJobs, 10);
   const fresherJob = allJobs.filter((item) => item.job_type === "Fresher");
 
-  // useEffect(() => {
-  //   fetch("../../../../public/data/FresherJob.json")
-  //     .then((res) => res.json())
-  //     .then((data) => setFresherJob(data));
-  // }, []);
+  const handleNavigate = () => {
+    navigate("/alljobs");
+  };
+
   return (
     <div>
       <SectionTitle
@@ -28,7 +27,10 @@ const FresherJob = () => {
         ))}
       </div>
       <div className="text-center">
-        <button className="btn btn-outline btn-warning   ">
+        <button
+          onClick={handleNavigate}
+          className="btn btn-outline btn-warning   "
+        >
           See More <FaArrowRight></FaArrowRight>
         </button>
       </div>

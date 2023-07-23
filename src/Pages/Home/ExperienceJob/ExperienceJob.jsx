@@ -3,20 +3,18 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import JobCard from "../../../Shared/JobCard/JobCard";
 import { FaArrowRight } from "react-icons/fa";
 import useAllJobs from "../../../hooks/useAllJobs";
+import { useNavigate } from "react-router-dom";
 
 const ExperienceJob = () => {
+  const navigate = useNavigate();
   const [allJobs] = useAllJobs();
-
   const experienceJob = allJobs.filter(
     (item) => item.job_type === "Experience"
   );
-  // const [experienceJob, setExperienceJob] = useState([]);
 
-  // useEffect(() => {
-  //   fetch("../../../../public/data/ExperienceJob.json")
-  //     .then((res) => res.json())
-  //     .then((data) => setExperienceJob(data));
-  // }, []);
+  const handleNavigate = () => {
+    navigate("/alljobs");
+  };
   return (
     <div>
       <SectionTitle
@@ -30,7 +28,10 @@ const ExperienceJob = () => {
         ))}
       </div>
       <div className="text-center mt-10 mb-10">
-        <button className="btn btn-outline btn-warning   ">
+        <button
+          onClick={handleNavigate}
+          className="btn btn-outline btn-warning   "
+        >
           See More <FaArrowRight></FaArrowRight>
         </button>
       </div>
