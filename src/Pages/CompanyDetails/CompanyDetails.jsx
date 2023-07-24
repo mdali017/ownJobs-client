@@ -42,9 +42,6 @@ const CompanyDetails = () => {
               apply for the perfect job match. Join us today and take the next
               step towards a fulfilling and rewarding career journey!
             </p>
-            {/* <button onClick={handleNavigate} className="btn btn-primary">
-              Get Started
-            </button> */}
           </div>
         </div>
       </div>
@@ -93,18 +90,18 @@ const CompanyDetails = () => {
             <div className="mb-10">
               <h1 className="text-2xl font-bold  ">Contact Information: </h1>
               <h4>
-                <span className="text-[120x] font-medium">Email</span>:{" "}
+                <span className="text-[120x] font-medium">Email</span>:
                 {contact_email}
               </h4>
               <h4>
                 <span className="text-[120x] font-medium">Phone</span>: {phone}
               </h4>
               <h4>
-                <span className="text-[120x] font-medium">Website</span>:{" "}
+                <span className="text-[120x] font-medium">Website</span>:
                 {website}
               </h4>
               <h4>
-                <span className="text-[120x] font-medium">Linkedin</span>:{" "}
+                <span className="text-[120x] font-medium">Linkedin</span>:
                 {linkedin_profile}
               </h4>
             </div>

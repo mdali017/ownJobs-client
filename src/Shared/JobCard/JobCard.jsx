@@ -6,13 +6,8 @@ import Swal from "sweetalert2";
 const JobCard = ({ jobs }) => {
   const navigate = useNavigate();
   // console.log(jobs);
-  const {
-    position_name,
-    job_location,
-    company_name,
-    company_logo,
-    category_name,
-  } = jobs;
+  const { position, job_location, company_name, company_logo, category_name } =
+    jobs;
 
   const handleApply = () => {
     Swal.fire({
@@ -30,7 +25,7 @@ const JobCard = ({ jobs }) => {
         <span className="card-title border rounded-full pl-2">
           {category_name}
         </span>
-        <p className="mt-8 text-3xl font-semibold ">{position_name}</p>
+        <p className="mt-8 text-3xl font-semibold ">{position}</p>
         <div className="flex gap-4 mt-5">
           <div className="flex items-center gap-3">
             <span>

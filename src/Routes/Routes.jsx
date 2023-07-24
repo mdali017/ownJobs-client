@@ -3,6 +3,8 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
 import AllJobs from "../Pages/AllJobs/AllJobs";
 import CompanyDetails from "../Pages/CompanyDetails/CompanyDetails";
+import About from "../Pages/About/About";
+import Contact from "../Pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
         element: <CompanyDetails></CompanyDetails>,
         loader: ({ params }) =>
           fetch(`http://localhost:2000/allcompanies/${params.id}`),
+      },
+      {
+        path: "/about",
+        element: <About></About>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
       },
     ],
   },
